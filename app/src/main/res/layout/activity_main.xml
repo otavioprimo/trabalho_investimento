@@ -4,12 +4,114 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="investimento.codebrain.com.br.investimento_trampo.MainActivity">
+    android:orientation="vertical"
+    tools:context="investimento.codebrain.com.br.investimento_trampo.MainActivity"
+    android:weightSum="1">
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
+        android:id="@+id/txtInitialValue"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="TextView" />
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/initial_value_BR"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/edtInitialValue"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="10dp"
+        android:inputType="numberDecimal"
+        android:hint="@string/placeholder_initial_value_BR"/>
+
+    <TextView
+        android:id="@+id/txtMonthlyApplication"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/monthly_application_BR"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/edtMonthlyApplication"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="10dp"
+        android:inputType="numberDecimal"
+        android:hint="@string/placeholder_monthly_application_BR"/>
+
+    <TextView
+        android:id="@+id/txtApplicationTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/application_time_BR"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/edtApplicationTime"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="10dp"
+        android:inputType="numberDecimal"
+        android:hint="@string/placeholder_application_time_BR"/>
+
+    <TextView
+        android:id="@+id/txtTax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/tax_BR"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/edtTax"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="10dp"
+        android:inputType="numberDecimal"
+        android:hint="@string/placeholder_tax_BR"/>
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate_BR"
+        android:backgroundTint="@color/colorPrimary"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/amount_BR"
+            android:textSize="25sp"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/txtAmountFinal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text=""
+            android:textSize="25sp"
+            android:textColor="@color/colorPlaceholder"
+            android:visibility="invisible" />
+    </LinearLayout>
 </LinearLayout>

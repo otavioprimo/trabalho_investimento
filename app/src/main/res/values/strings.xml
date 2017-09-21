@@ -1,3 +1,42 @@
 <resources>
     <string name="app_name">Cálculo de Investimento</string>
+    <string name="initial_value_BR">Valor Inicial</string>
+    <string name="monthly_application_BR">Aplicação Mensal</string>
+    <string name="application_time_BR">Tempo da aplicação</string>
+    <string name="tax_BR">Taxas</string>
+    <string name="placeholder_initial_value_BR">Valor em R$. Ex: 1700.00</string>
+    <string name="placeholder_monthly_application_BR">Ex: 100.00</string>
+    <string name="placeholder_application_time_BR">Em meses</string>
+    <string name="placeholder_tax_BR">Ex: 0.02</string>
+    <string name="calculate_BR">Calcular</string>
+    <string name="amount_BR">Montante:</string>
+    <string name="clear_BR">Limpar</string>
+    <string name="value_isempyt_BR">Este campo deve ser preenchido</string>
+
+
+    <string name="initial_value_EN">Initial Value</string>
+    <string name="monthly_application_EN">Monthly Application</string>
+    <string name="application_time_EN">Application_time</string>
+    <string name="tax_EN">Taxs</string>
+    <string name="placeholder_initial_value_EN">Amount in R $. Ex: 1700.00</string>
+    <string name="placeholder_monthly_application_EN">Ex: 100.00</string>
+    <string name="placeholder_application_time_EN">In months</string>
+    <string name="placeholder_tax_EN">Ex: 0.02</string>
+    <string name="calculate_EN">Calculate</string>
+    <string name="amount_EN">Amount:</string>
+    <string name="clear_EN">Clean</string>
+    <string name="value_isempyt_EN">This field must be filled in</string>
+
+    <string name="initial_value_ES">Valor Inicial</string>
+    <string name="monthly_application_ES">Aplicación Mensual</string>
+    <string name="application_time_ES">Tiempo de la aplicación</string>
+    <string name="tax_ES">Las tasas</string>
+    <string name="placeholder_initial_value_ES">Valor en R $. Ex: 1700.00</string>
+    <string name="placeholder_monthly_application_ES">Ex: 100.00</string>
+    <string name="placeholder_application_time_ES">En meses</string>
+    <string name="placeholder_tax_ES">Ex: 0.02</string>
+    <string name="calculate_ES">Calcular</string>
+    <string name="amount_ES">Montante</string>
+    <string name="clear_ES">Limpiar</string>
+    <string name="value_isempyt_ES">Este campo debe rellenarses</string>
 </resources>
